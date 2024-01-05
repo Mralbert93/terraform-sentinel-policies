@@ -14,7 +14,7 @@ module "tfrun-functions" {
     source = "../common-functions/tfrun-functions/tfrun-functions.sentinel"
 }
 
-policy "check-ec2-environment-tag" {
+policy "terraform-freeze-block" {
   source = "./terraform-freeze-block.sentinel"
   enforcement_level = "soft-mandatory"
 }
