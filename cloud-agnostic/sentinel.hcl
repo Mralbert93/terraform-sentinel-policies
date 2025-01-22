@@ -119,11 +119,6 @@ policy "restrict-remote-state" {
     enforcement_level = "advisory"
 }
 
-policy "restrict-resources-by-module-source" {
-    source = "./restrict-resources-by-module-source.sentinel"
-    enforcement_level = "advisory"
-}
-
 policy "validate-variables-have-descriptions" {
     source = "./validate-variables-have-descriptions.sentinel"
     enforcement_level = "advisory"
